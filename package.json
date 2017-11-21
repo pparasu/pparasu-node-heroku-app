@@ -1,0 +1,23 @@
+{
+  "name": "pparasu-node-heroku-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pparasu/pparasu-node-heroku-app.git"
+  },
+  "author": "Parasuraman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pparasu/pparasu-node-heroku-app/issues"
+  },
+  "homepage": "https://github.com/pparasu/pparasu-node-heroku-app#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
