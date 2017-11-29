@@ -17,8 +17,8 @@ app.post('/intro', function (req, res) {
   console.log(req.body)
 
 
-  const userName = req.query.userName
-  //var userName = req.body.result.parameters['given-name']
+  //const userName = req.query.userName
+  var userName = req.body.result.parameters['userName']
   var webhookReply = 'Hello ' + userName + '! Welcome from the webhook.'
 
 
